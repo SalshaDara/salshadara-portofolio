@@ -1,121 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Salsha Dara | Portfolio</title>
+  <title>Salsha Dara - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; background: #f9fafb; margin: 0; padding: 0; color: #333; }
-    header { background-color: #1f2937; color: white; padding: 2rem; text-align: center; }
-    nav { background-color: #374151; text-align: center; padding: 1rem; }
-    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    .container { max-width: 1000px; margin: auto; padding: 2rem; }
-    h2 { color: #1f2937; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem; }
-    .section { margin-bottom: 3rem; }
-    ul { line-height: 1.8; }
-    footer { background: #1f2937; color: white; text-align: center; padding: 1rem; }
-    .project, .job, .org { background: white; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 1.5rem; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #fce4ec, #f3e5f5);
+      color: #333;
+    }
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      color: #6a1b9a;
+    }
+    .profile-pic {
+      width: 180px;
+      border-radius: 50%;
+      border: 4px solid #ba68c8;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .photo-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-left: 6px solid #ce93d8;
+      padding-left: 10px;
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Salsha Dara Shinta Kurniawan</h1>
-  <p>Data Analyst | Mining Industry Enthusiast</p>
-</header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#portfolio">Portfolio</a>
-  <a href="#experience">Experience</a>
-  <a href="#organizations">Leadership</a>
-  <a href="#skills">Skills</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I'm a Statistics graduate from Universitas Islam Indonesia with a strong interest in data analysis, cost control, and engineering support in the mining industry. Proficient in Excel, Python, RStudio, Power BI, and Tableau, I support data-driven decision making through detailed analysis and visualization.</p>
-  </section>
-
-  <section id="portfolio" class="section">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <h3>Sentiment Analysis Using Naïve Bayes</h3>
-      <p><strong>Tools:</strong> Python, Jupyter Notebook</p>
-      <p>Analyzed 4,997 McDonald's app reviews to classify user sentiment using Naïve Bayes algorithm. Results were used to evaluate and improve app development strategies.</p>
+  <div class="container">
+    <div class="photo-container">
+      <img src="emailcv.jpg" alt="Foto Salsha Dara" class="profile-pic" />
+      <h1>Salsha Dara Shinta Kurniawan</h1>
+      <p style="color: #9c27b0; font-weight: 600;">Data Analyst | Statistician | Digital Enthusiast</p>
     </div>
-  </section>
 
-  <section id="experience" class="section">
-    <h2>Experience</h2>
-    <div class="job">
-      <h3>Data Analyst Intern - Pertamina Hulu Kalimantan Timur (Mar 2025 – Now)</h3>
+    <div class="section">
+      <h2 class="section-title">📌 About Me</h2>
+      <p>
+        Lulusan Statistika dari Universitas Islam Indonesia yang memiliki ketertarikan tinggi pada bidang analisis data dan bisnis digital. Berpengalaman dalam pengolahan data menggunakan Python dan Microsoft Excel, serta pernah terlibat dalam proyek penelitian terpublikasi dan magang profesional. Memiliki kemampuan analisis yang kuat, perhatian pada detail, serta semangat belajar tinggi untuk terus berkembang di dunia kerja yang dinamis.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">💼 Professional Experience</h2>
+      <h3>Data Analyst Intern – Pertamina Hulu Kalimantan Timur</h3>
+      <p><strong>Departemen Engineering, Divisi Strategic, Engineering and Project Planning (SEPP)</strong></p>
+      <p><em>Januari 2024 – Februari 2024</em></p>
       <ul>
-        <li>Developed trend reports on EPC productivity and engineering performance.</li>
-        <li>Created interactive dashboards using Power BI.</li>
-        <li>Updated project S-Curves and analyzed delays between planned and actual progress.</li>
+        <li>Mengelola dan memvisualisasikan data teknis proyek di bawah supervisi tim Engineering.</li>
+        <li>Menganalisis kebutuhan data strategis untuk mendukung perencanaan proyek perusahaan.</li>
+        <li>Mengembangkan laporan-laporan berbasis data untuk keperluan evaluasi internal divisi.</li>
       </ul>
     </div>
-    <div class="job">
-      <h3>Project Officer - PT JIM, Balikpapan (Nov 2024 – Feb 2025)</h3>
+
+    <div class="section">
+      <h2 class="section-title">📊 Projects</h2>
+      <h3>Analisis Sentimen Ulasan Aplikasi McDonald’s di Indonesia</h3>
+      <p><strong>Published in Jurnal Media Informatika Budidarma – SINTA 3 Accredited Journal</strong></p>
       <ul>
-        <li>Prepared project budget and heavy equipment reports.</li>
-        <li>Generated monthly financial and accrual reports.</li>
-        <li>Managed procurement, inventory, and CAPEX tracking.</li>
+        <li>Menggunakan metode Naïve Bayes Classifier untuk menganalisis sentimen pengguna terhadap aplikasi McDonald’s.</li>
+        <li>Data diolah dan dimodelkan menggunakan Python serta didukung pengelolaan awal dengan Microsoft Excel.</li>
+        <li>Proyek ini berkontribusi pada pemahaman preferensi pelanggan dan respons mereka terhadap fitur aplikasi.</li>
       </ul>
     </div>
-    <div class="job">
-      <h3>Statistics Intern - BPS Yogyakarta (Jan 2023 – Feb 2023)</h3>
-      <ul>
-        <li>Handled field map data storage and Regsosek documentation.</li>
-        <li>Updated SAKERNAS February 2023 data.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="organizations" class="section">
-    <h2>Organizational Leadership</h2>
-    <div class="org">
-      <h3>Treasurer - Jelajah Statistika (ETIKA 2022)</h3>
-      <ul>
-        <li>Managed Rp 57 million budget and produced financial reports.</li>
-      </ul>
-    </div>
-    <div class="org">
-      <h3>Head of Student Guide - MASTA 2022</h3>
-      <ul>
-        <li>Supervised 52 student guides across 26 new student groups.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <ul>
-      <li>Ms Office, Ms Excel</li>
-      <li>Python, RStudio</li>
-      <li>Power BI, Tableau</li>
-      <li>Teamwork, Communication</li>
-      <li>Problem Solving, Detail Oriented</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> salshadara17@gmail.com</p>
-    <p><strong>Phone:</strong> +62 822-5577-1612</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nahdah-ghina-handayani-8a6393316" target="_blank">Salsha Dara Shinta Kurniawan</a></p>
-  </section>
-
-</div>
-
-<footer>
-  <p>&copy; 2025 Salsha Dara Shinta Kurniawan. All rights reserved.</p>
-</footer>
-
+  </div>
 </body>
 </html>
